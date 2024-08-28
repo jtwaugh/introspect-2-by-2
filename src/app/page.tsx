@@ -27,7 +27,7 @@ export default function Home() {
         {
           isQuestionnaireComplete ? (
             isTwoByTwoComplete ? 
-              <AnswersReadout description={questionnaireAnswers[questionnaireAnswers.length - 1]} answers={twoByTwoResponses}/> : 
+              <AnswersReadout description={questionnaireAnswers[questionnaireAnswers.length - 1]} responses={twoByTwoResponses}/> : 
               <TwoByTwo 
                 description={questionnaireAnswers[questionnaireAnswers.length - 1]}
                 responses={twoByTwoResponses}

@@ -15,7 +15,7 @@ const TwoByTwo = (props: any) => {
     return (
         <div className="p-4">
             <div className='h-full flex justify-center'>
-                <span className='title pb-4 text-center'>About your suffering, you said: <br/><br/><i>{props.description}</i><br/><br/> {"Let's break down what factors led to this phenomenon.<br/> Just write a few notes in each box and click Submit at the bottom when you're done"}.</span>
+                <span className='title pb-4 text-center'>About your suffering, you said: <br/><br/><i>{props.description}</i><br/><br/> {"Let's break down what factors led to this phenomenon."}<br/> {"Just write a few notes in each box and click Submit at the bottom when you're done"}.</span>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
                 <div>
